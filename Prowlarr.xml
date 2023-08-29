@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>prowlarr</Name>
+  <Repository>bitlessbyte/prowlarr</Repository>
+  <Registry>https://hub.docker.com/r/bitlessbyte/prowlarr/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/BitlessByte0/docker-prowlarr-abb/issues/new/choose</Support>
+  <Project>https://github.com/Prowlarr/Prowlarr</Project>
+  <Overview>This is a modified version(https://github.com/BitlessByte0/docker-prowlarr-abb) of Prowlarr that adds back AudioBookBay since it was considered obsolete.&#xD;
+&#xD;
+Prowlarr(https://github.com/Prowlarr/Prowlarr) is an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:9696]/system/status</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/prowlarr-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1693320049</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/prowlarr" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="WebUI" Target="9696" Default="9696" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">9898</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="TimeZone" Target="TZ" Default="Etc/UTC" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+</Container>
