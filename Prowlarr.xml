@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/BitlessByte0/docker-prowlarr-abb/issues/new/choose</Support>
+  <Support>https://github.com/BitlessByte0/prowlarr-abb/issues/new/choose</Support>
   <Project>https://github.com/Prowlarr/Prowlarr</Project>
   <Overview>This is a modified version(https://github.com/BitlessByte0/docker-prowlarr-abb) of Prowlarr that adds back AudioBookBay since it was considered obsolete.&#xD;
 &#xD;
